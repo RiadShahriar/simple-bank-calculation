@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my bank</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+   <header>
+    <h1 class="text-5xl text-center m-14"> Welcome to  <span class="font-semibold text-purple-600">My-Bank</span></h1>
+   </header>
+   <main>
+       
+       <section class="bg-red-300 w-3/4 mx-auto  rounded ">
+           <div class="p-8	">
+            <h3 class="font-medium text-3xl text-indigo-600 p-4 text-center	">Please login</h3>
+            <input id="user-name" class="w-3/4  block border rounded border-gray-300 mx-6 mb-4 " type="text" placeholder="Enter Username">
+            <input id="user-password" class="w-3/4 block border rounded border-gray-300 mx-6 mb-4 " type="password" placeholder="Enter Password">
+            <button id="submit-button" class="text-white text-xl mx-6 px-4 py-2 rounded font-medium bg-green-600">Submit</button>
+           </div>
+           
+       </section>
+   </main>
+
+   <script src="js/bank.js"></script>
+</body>
+</html>
